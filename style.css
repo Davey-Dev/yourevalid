@@ -20,9 +20,20 @@ html, body {
     padding-bottom: 20px;
     opacity: 0.80;
     filter: alpha(opacity=80); /* For IE8 and earlier */
+    text-decoration: none;
   }
   
-  #date {
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+  #header {
     color: white;
     font-size: 1.3em;
     font-family: Georgia, "Times New Roman", Times, serif;
