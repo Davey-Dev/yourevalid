@@ -23,12 +23,22 @@ html, body {
     text-decoration: none;
   }
   
+ a:link {
+    text-decoration: none;
+    color: white;
+}
+
 a:visited {
     text-decoration: none;
     color: white;
 }
 
-a:link {
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
     text-decoration: none;
     color: white;
 }
