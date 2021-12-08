@@ -7,6 +7,10 @@ function genQuote() {
   //$('.twitter-share-button').attr('href', tweetQuote);
 }
 
+function rawQuote() {
+    document.getElementById('quoteonly').innerHTML = valid[randomNumber(0,valid.length-1)];
+}
+
 function tweetLink() {
     window.open("https://twitter.com/intent/tweet?text=" + tweetQuote);
 }
