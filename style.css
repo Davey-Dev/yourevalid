@@ -12,16 +12,27 @@ html, body {
     z-index: -2;
   }
   
-  #display {
+#display {
       color: white;
-      font-size: 2.9em;
+      font-size: 3.5em;
       top: 10px;
     border-bottom: thin solid;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     opacity: 0.80;
     filter: alpha(opacity=80); /* For IE8 and earlier */
     text-decoration: none;
   }
+
+ #emoji {
+    color: yellow;
+    font-size: 3.5em;
+    top: 10px;
+  border-bottom: thin solid;
+  padding-bottom: 20px;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  text-decoration: none;
+}
   
 a:link {
     text-decoration: none;
@@ -49,8 +60,8 @@ a:active {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: normal;
     letter-spacing: 0.2em;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
   }
   
   #footer {
@@ -99,11 +110,12 @@ a:active {
     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
     letter-spacing:0.1em;
     text-align:center;
-    margin: 40px auto;
+    margin: 20px auto;
     text-transform: lowercase;
     line-height: 145%;
     font-size: 2em;
     font-variant: small-caps;
+    text-shadow: 4px 4px 3px #000000;
   }
   
   p :hover {
