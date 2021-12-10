@@ -74,7 +74,14 @@ var valid = ["Take a deep breath and remind yourself that you are in complete co
              "Walk away from anyone who's busy finding your faults while you're busy overlooking theirs.",
              "There are so many people out there who will tell you that you can't. What you've got to do is to turn around and say - watch me.",
              "Negativity is a virus, don't let it get you sick.",
-             "The fact that someone else loves you doesn't rescue you from the project of loving yourself."
+             "The fact that someone else loves you doesn't rescue you from the project of loving yourself.",
+             "Start where you are. Use what you have. Do what you can.",
+             "If you find yourself mentally exhausted: change your environment. Unclutter your desk. Take a shower. Go for a walk. Refresh your mental state.",
+             "Lost time is never found again, make it count.",
+             "Holding onto something that is good for you now, may be the very reason why you don't have something better.",
+             "Don't be afraid to start over. This time you're not starting from scratch. You're starting from experience.",
+             "On your good days, run hard. On your bad days, run as long as you need.",
+             "Failure is so important. We speak about success all the time. It is the ability to resist failure or use failure that often leads to greater success. I've met people who don't want to try for fear of failing."
             ]
 
 function randomNumber(min, max) {  
