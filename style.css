@@ -10,8 +10,6 @@ html, body {
     background-size: cover;
     background-position: top;
     z-index: -2;
-    opacity: 0;
-    transition: opacity 3s;
   }
   
 #display {
