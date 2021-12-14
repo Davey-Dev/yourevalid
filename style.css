@@ -116,9 +116,8 @@ a:active {
     font-size: 2em;
     font-variant: small-caps;
     text-shadow: 4px 4px 3px #000000;
-    animation: fadeInAnimation ease 3s
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: opacity 3s;
   }
   
   p :hover {
@@ -213,13 +212,3 @@ a:active {
     font-size: 30px !important;
     margin-left: 20px;
   }
-
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
-  
