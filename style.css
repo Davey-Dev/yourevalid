@@ -10,9 +10,6 @@ html, body {
     background-size: cover;
     background-position: top;
     z-index: -2;
-    animation: fadeInAnimation ease 3s
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
   }
   
 #display {
@@ -119,6 +116,9 @@ a:active {
     font-size: 2em;
     font-variant: small-caps;
     text-shadow: 4px 4px 3px #000000;
+    animation: fadeInAnimation ease 3s
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
   
   p :hover {
