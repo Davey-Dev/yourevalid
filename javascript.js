@@ -1,9 +1,12 @@
 var tweetQuote;
 function genQuote() {
-  var randNum = randomNumber(0,valid.length-1)
-  tweetQuote = valid[randNum];
-  document.getElementById('quote').innerHTML = tweetQuote;
-  
+    var quote = document.getElementById('quote')
+    var randNum = randomNumber(0,valid.length-1)
+    tweetQuote = valid[randNum];
+    quote.innerHTML=tweetQuote;
+    quote.style.animation = "fadeIn linear 2s"
+    setTimeout(() => quote.style.animation = "", 2000)
+    //quote.style.opacity = "1"
   //$('.twitter-share-button').attr('href', tweetQuote);
 }
 
