@@ -5,7 +5,7 @@ html, body {
     width: 100%;
     position: absolute;
     background-color: black;
-    background-image: url('/images/bg.jpeg');
+    background-image: url('./images/bg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -16,7 +16,7 @@ html, body {
       color: white;
       font-size: 3.5em;
       top: 10px;
-    border-bottom: thin solid;
+    /*border-bottom: thin solid;*/
     padding-bottom: 0px;
     opacity: 0.80;
     filter: alpha(opacity=80); /* For IE8 and earlier */
@@ -27,7 +27,7 @@ html, body {
     color: yellow;
     font-size: 3.5em;
     top: 10px;
-  border-bottom: thin solid;
+  /*border-bottom: thin solid;*/
   padding-bottom: 20px;
   opacity: 0.80;
   filter: alpha(opacity=80); /* For IE8 and earlier */
