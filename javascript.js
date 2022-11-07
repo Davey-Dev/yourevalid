@@ -10,6 +10,8 @@ function genQuote() {
   //$('.twitter-share-button').attr('href', tweetQuote);
 }
 
+//lol it works
+
 function rawQuote() {
     document.getElementById('quoteonly').innerHTML = valid[randomNumber(0,valid.length-1)];
 }
