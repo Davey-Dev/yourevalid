@@ -169,7 +169,7 @@ var valid = ["Take a deep breath and remind yourself that you are in complete co
              "Telling the truth and making someone cry is better than telling a lie and making someone smile.",
              "We reap what we sow. We are the makers of our own fate. None else has the blame, none has the praise.",
              "Just remember, when you should grab something, grab it; when you should let go, let go.",
-             "You must either modify your dreams or magnify your skills."
+             "You must either modify your dreams or magnify your skills.",
              "To those who are gay, lesbian, bisexual, or transgender -- let me say -- you are not alone. Your struggle, for the end to violence and discrimination, is a shared struggle."
             ]
 
