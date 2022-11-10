@@ -33,7 +33,11 @@ html, body {
   filter: alpha(opacity=80); /* For IE8 and earlier */
   text-decoration: none;
 }
-  
+
+img {
+  max-height: 200%;
+}
+
 a:link {
     text-decoration: none;
     color: white;
